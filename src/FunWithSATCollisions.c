@@ -371,6 +371,8 @@ int main()
         free(bPolyDrawPoints);
     }
     
+    UnloadTexture(arrowKey);
+    
     CloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
